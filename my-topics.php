@@ -133,9 +133,6 @@ $topics = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
         <?php endif; ?>
     </section>
 
-    <!-- Footer -->
-    <?php include 'includes/footer.php'; ?>
-
     <!-- Modals -->
     <?php include 'includes/modals.php'; ?>
 
