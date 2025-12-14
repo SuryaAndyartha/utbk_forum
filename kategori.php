@@ -72,7 +72,37 @@ $categories = $db->query("
     </section>
 
     <!-- Footer -->
-    <?php include 'includes/footer.php'; ?>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5><i class="bi bi-mortarboard-fill"></i> UTBK Forum</h5>
+                    <p>Platform diskusi terbaik untuk persiapan UTBK</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Link Cepat</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Tentang Kami</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Panduan Forum</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Hubungi Kami</h5>
+                    <p><i class="bi bi-envelope"></i> info@utbkforum.com</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr style="border-color: rgba(255,255,255,0.2)">
+            <div class="text-center">
+                <small>&copy; 2024 UTBK Forum. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
 
     <!-- Modals -->
     <?php include 'includes/modals.php'; ?>
