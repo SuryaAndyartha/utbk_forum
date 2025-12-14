@@ -248,9 +248,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_comment'])) {
         </div>
     </section>
 
-    <!-- Footer -->
-    <?php include 'includes/footer.php'; ?>
-
     <!-- Modals -->
     <?php include 'includes/modals.php'; ?>
 
