@@ -274,9 +274,6 @@ if (isLoggedIn()) {
         </div>
     </div>
 
-    <!-- Footer -->
-    <?php include 'includes/footer.php'; ?>
-
     <!-- Modals -->
     <?php include 'includes/modals.php'; ?>
 
