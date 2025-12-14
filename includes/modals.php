@@ -24,6 +24,11 @@
                     <div class="text-center mt-3">
                         <small>Belum punya akun? <a href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#registerModal">Daftar</a></small>
                     </div>
+                    <div class="d-grid mt-3">
+                        <a href="login-handler.php?google=1" class="btn btn-danger">
+                            <i class="bi bi-google"></i> Login dengan Google
+                        </a>
+                    </div>
                 </form>
             </div>
         </div>
